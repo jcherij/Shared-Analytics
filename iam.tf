@@ -1,4 +1,5 @@
 # IAM role for Redshift to access S3
+#test
 resource "aws_iam_role" "redshift_s3_access" {
   name = "analytics-redshift-s3-access"
 
